@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/Header.css'
+import image from '../images/zdjecie.jpg'
+
 
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
         <header className='header'>
 
             <div className='header_wrapper'>
-                <img src=""></img>
+                <img src={image} alt='zdjecie' />
             </div>
 
         </header>
